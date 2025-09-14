@@ -1,4 +1,4 @@
-#数据加载操作必须复写父类的三个方法
+#数据加载操作必须复写父类的三个方法。
 from torch.utils.data import Dataset
 
 import os
