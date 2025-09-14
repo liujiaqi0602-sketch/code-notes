@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 import  torch
 
-class onedataloader(Dataset):
+class one_dataloader(Dataset):
      def __init__(self,data_path):
          self.data_path=data_path
 
@@ -38,6 +38,7 @@ class onedataloader(Dataset):
          self.label=list(self.lable)
 
          return self.data[index],self.label[index]
+
 
 
 
